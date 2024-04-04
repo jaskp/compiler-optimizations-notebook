@@ -1,0 +1,26 @@
+[project]
+name = "pa037"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Peter Jaško", email = ""},
+]
+dependencies = [
+    "ipython>=8.23.0",
+    "ipykernel>=6.29.4",
+    "astunparse>=1.6.3",
+    "networkx>=3.2.1",
+    "matplotlib>=3.8.3",
+    "jupyterlab>=4.1.5",
+    "jupyterlab-rise>=0.42.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.black]
+line-length = 120
